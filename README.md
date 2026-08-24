@@ -12,77 +12,49 @@
 
 **Supervisor:** Dr. Ch Anuradha
 
+## Abstract
+
+PrimeForge is a web-based project that focuses on working with large prime numbers. The main purpose of the project is to check whether a given large number is prime or composite using the Miller-Rabin Primality Test. It will support numbers up to 1024 bits and show the result along with the confidence level and time taken by the algorithm. We also plan to include prime number generation, algorithm comparisons, randomized algorithms and parallel processing as the project develops. The project is being developed as part of our DSA-3 course to understand and apply these algorithms in a practical system.
+
 ## About the Project
 
-PrimeForge is a web-based project for working with large prime numbers. The main part of the project is to check whether a very large number is prime or composite using the **Miller-Rabin Primality Test**.
+The main idea of PrimeForge is to create a web application where users can enter large numbers and test them for primality.
 
-The system will support numbers up to 1024 bits and will show the result, confidence level and execution time. As we continue working on the project, we plan to add prime number generation, algorithm comparisons, randomized algorithms and parallel processing.
+The first part of the project will focus on the Miller-Rabin algorithm. Later, we will add more features and algorithms so that the project can be used to study the performance and practical use of randomized and parallel algorithms.
 
 ## Main Features
 
-* Large prime number validation
-* Miller-Rabin Primality Test
-* Large prime number generation
-* Confidence level calculation
-* Execution time measurement
-* Algorithm performance comparison
-* Randomized hashing
-* Reservoir sampling
-* Parallel prime testing
-* Web-based dashboard
+- Large prime number validation
+- Miller-Rabin Primality Test
+- Support for numbers up to 1024 bits
+- Confidence level of the result
+- Execution time measurement
+- Large prime number generation
+- Algorithm performance comparison
+- Randomized hashing
+- Reservoir sampling
+- Parallel prime testing
+- Web-based dashboard
 
 ## Technologies
 
-* Java
-* Spring Boot
-* HTML
-* CSS
-* JavaScript
-* BigInteger
+- Java
+- Spring Boot
+- HTML
+- CSS
+- JavaScript
+- BigInteger
 
 ## Setup
 
 ### Requirements
 
-* Java JDK 17 or above
-* Git
-* VS Code / IntelliJ IDEA / Eclipse
-* Maven (for the web application)
+- Java JDK 17 or above
+- Git
+- VS Code / IntelliJ IDEA / Eclipse
+- Maven for the web application
 
-### Clone the project
+### Clone the Repository
 
 ```bash
 git clone https://github.com/Akhil-0715/klh-cse-2026-2027-Team3-PrimeCheck.git
-```
-
-Then:
-
-```bash
-cd klh-cse-2026-2027-Team3-PrimeCheck
-```
-
-## Current Status
-
-**Phase 1 - Project Setup**
-
-Currently completed:
-
-* [x] Project topic selected
-* [x] Project title finalized
-* [x] GitHub repository created
-* [x] README added
-* [x] Project modules planned
-
-Currently working on:
-
-* [ ] Project structure
-* [ ] Miller-Rabin implementation
-* [ ] Prime validation
-* [ ] Confidence calculation
-* [ ] Web interface
-
-More features will be added as we continue developing the project throughout the trimester.
-
-## Project Goal
-
-The goal of this project is to apply the concepts from DSA-3, especially **randomized algorithms, large integer computation, algorithm efficiency and parallel processing**, in a practical web-based application.
