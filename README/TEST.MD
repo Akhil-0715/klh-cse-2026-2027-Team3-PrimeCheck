@@ -1,4 +1,4 @@
-**PrimeForge**
+# PrimeForge
 
 Large Prime Generation & Validation Platform
 
