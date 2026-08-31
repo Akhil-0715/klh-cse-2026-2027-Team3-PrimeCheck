@@ -1,6 +1,6 @@
 # PrimeForge
 
-Large Prime Generation & Validation Platform
+# Large Prime Generation & Validation Platform
 
 DSA-3 Project
 
